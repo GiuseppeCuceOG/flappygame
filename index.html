@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>Flappy Game</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body onload="myMove()">
+	<div id="route">
+		<div id="dash"></div>
+		<img id="bicycle" src="./bike.png"/>
+	</div>
+	<div id="score-button-zone">
+		<div id="points" >Score: <span id="score"> 0 </span></div>
+		<h2 id="trackPosition">0</h2>
+		<button id="button" type="button" onClick="refreshPage()">Try It Again!</button>
+	</div>
+	<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
